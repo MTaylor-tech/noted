@@ -83,7 +83,8 @@ class Noted:
             elif key == keyboard.Key.right or key == keyboard.Key.down:
                 self.next()
             else:
-                print('>{0}<'.format(key))
+                pass
+                # print('>{0}<'.format(key))
         else:
             print("None")
         # print(f"--{self.index}--")
